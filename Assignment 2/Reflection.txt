@@ -1,0 +1,34 @@
+/* Reflection.txt for COMP103 - 2017T2, Assignment 2
+ * Name:Daniel Armstrong
+ * Username:armstrdani1
+ * ID:300406381
+ */
+
+For your reflection:
+====================
+Describe how far you got. If there was a problem you got stuck on, what was that problem?
+To the best of my knowledge I have completely finished from core to challenge of the Fast-food game.
+for Sokoban I have only finished the first section. the redo seemed complicated but doable. but other commitments have completely left me out of time. 
+in all honesty, I struggled with this assignment a lot. but pushing through it and referring to the slides does help. I have not managed to get to a help desk yet, but I plan to
+an individual problem i got stuck on is the add and draw method for the fast-food, i found my initial draw method which looped through each ArrayList and added each specifically first off, I 
+was getting out of bounds errors. but I then realised comparing an ArrayList to an empty ArrayList does not work... in the end I completely rewrote the method to draw the pictures. to be far more
+efficient and just better to understand, work with and in general maintain. if one wanted to extend the code in the future.
+
+
+Reading and understanding someone else's code is difficult. What elements of Sokoban made it easier or made it more difficult for you to understand? 
+It is very difficult to read another’s code and then build on it, it does make it easier with the comments and it really does allow you to see why we need to comment and have good variable 
+names. Sokoban to work through that, I basically followed a key press through the whole program while drawing it out to get an understanding of the flow of the program. this with the comments made undo relatively easy to do. 
+but sadly, I had to stop there.
+
+Can you identify things that you would do or avoid doing if you were trying to make your own code easily understood by someone else?
+I would like to think that I can. I mean you would avoid bad variable names and lack of commenting, and with that avoid messy code. these are countered to make my code easier with 
+in-depth comments about the process of my thoughts and what I want the code to do and how the code actually works. I like clean code so indent to keep my code manageable and think i keep decent 
+variable names. for me something to avoid is massive classes. it’s easier and more manageable to have several smaller classes to then link together to make things work.
+
+Comment: I did struggle with this assignment, and I feel like its only going to get harder. but I am trying hard to keep up. and to attain a proper understanding. my commenting style is more to comment
+at the top of each method in green rather than tonnes of little grey comments, I do hope this is okay if my reflections are not good enough could I grab some pointer, any advice would be amazing.
+
+
+
+--------------------------------------------------------------------
+
