@@ -1,0 +1,32 @@
+/* Reflection.txt for COMP103 - 2017T2, Assignment 7
+ * Name: Daniel Armstrong
+ * Username: armstrdani1
+ * ID: 300406381
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. Please be specific about
+what you attempted (core, completion, challenge, and any finer-grained goals,
+if applicable). Please also state how successful you believe you were
+respectively. If there were any problems you got stuck on, what were they?
+
+With this assignment I managed to make it halfway through challenge. with quite a bit of struggle, like always I wanted to finish my assignment before Wednesday but for some reason I was having a bad week
+i got core done on Tuesday but completion and challenge or what I did of it I didn’t get done till late Thursday. I’m not sure why I found this assignment more difficult as it had very many similarities
+from the previous assignment. to help me with this assignment I talked to a few friends and looked over the lecture slides to finally get it done. recently however I have become less happy 
+with my performance in COMP103 I feel I am not learning, I am only doing the assignments to get them done and not to fail not because I actually need to learn and this worries me a lot.
+
+* When you load in the same taxonomy from the file over and over again, you may notice that sometimes the tree is displayed differently. Why?
+The children are stored in sets and because sets have no order you can load a taxonomy and it will read and order it a certain way but the next time you load it, it may not be the same, because
+like I said before a common theme in a set is a lack of order. but it allows for random access.
+
+* In the inSubtree(...) method used in the completion, we try to ensure that if a node is moved (along with its subtree), then it isn't moved into its own subtree. 
+ Discuss two problems that could occur if we allowed a node (along with its subtree) to become a child of one of the nodes in that subtree.
+would it not become detached? you can connect a subtree to a node in that subtree... (forming its own separate tree would we lose the data?) it would be like taking a branch of an actually tree then making that branch grow from a leaf on that branch,
+that does not happen in nature and makes no sense here. a friend mentioned the output would be similar to that of the contains method one cyclic tree. for me this means more like if there is no root... it would result in an infinite
+loop that you could never get out of effectively crashing the system.
+
+Sorry about this reflection, im not sure how to answer it...
+
+----------------------------------------------------------------

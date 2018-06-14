@@ -1,0 +1,48 @@
+/* Reflection.txt for COMP103 - 2017T2, Assignment 5
+ * Name: Daniel Armstrong
+ * Username: armstrongdani21
+ * ID:300406381
+ */
+
+For your reflection:
+====================
+
+First, describe how far you got, on this assignment. Please be specific about
+what you attempted (core, completion, challenge, and any finer-grained goals,
+if applicable). Please also state how successful you believe you were
+respectively. If there were any problems you got stuck on, what were they?
+
+On this assignment I got up to challenge. i found the programs, relatively difficult not in how to code them
+but how to think about them, and approach them. for instance, initially my Mondrian was random but looked correct.
+it was only after my friend pointed it out, I realized my problem and fixed it. my goal was to push myself to finish 
+challenge and work on developing my code more. I got particularly stuck on the challenge and the maze search and ran into a 
+stack overflow error a couple of times, but managed to fix this, with a bit of research.
+
+Sometimes a recursive method can alternatively be written just using simple
+loops. What do think determines whether this is possible or not? 
+
+From what i understand, a recursive method can always be done iteratively and vice versa (Church Turing model)
+however, the base case is size of the program, or in a better sense the computational memory that it takes up
+when being processed the thing is that many things calculated iteratively can have massive memory needs. O(n) and when
+computing things excursively can be computed in far less space. with recursion. many programs are easier to follow and understand
+compared to them iteratively. it really depends on the program that you are writing. a limiting factor is the number of loops it will make.
+when using recursion if you have an excessive number of loops, you will run into stack overflow errors
+(one example i keep reading about is Fibonacci’s numbers, which sounds like it will break recursion)
+
+
+What are the advantages/disadvantages of using recursive methods rather than
+loops?
+
+Recursion can be simpler to write an understand with exploiting structure,
+Recursion however compared to a loop is prone to memory problems. depending on machines. eg Stack overflow errors
+Recursion can often be slower than loops depending on tasks
+Recursion can be easier to debug, but can be prone to problems.
+
+
+Many people find recursion hard to understand at first, although it doesn't do
+anything different from previous programs - it just involves methods which call
+methods.  Why is it tricky then?
+
+I guess the idea that a method can call itself is difficult. Arthur explained it well. programmers program in sequential style
+like in java and so forth. and with that it makes it hard to see programs moving in other directions. a program calling itself hardly seems sequential and maybe 
+some people find this difficult to follow? for me it’s not so much the case. I find it easier to work with than many things, even more simple things.

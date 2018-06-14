@@ -1,0 +1,40 @@
+/* Reflection.txt for COMP103 - 2017T2, Assignment 6
+ * Name: Daniel Armstrong
+ * Username: armstrdani1
+ * ID:300406381
+ */
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. Please be specific about
+what you attempted (core, completion, challenge, and any finer-grained goals,
+if applicable). Please also state how successful you believe you were
+respectively. If there were any problems you got stuck on, what were they?
+
+I think I’ve done okay respectively, to what the assignment asks for, personally, I fought to get this assignment done, on Tuesday being I have a test on Friday and wanted to devote all my time to the 
+study of said test, so I only got half way through challenge implementing the iterator. even that I’m not sure is right being that its O(n) then again it is an iterator. I’m not sure how to approach the
+self-balancing tree. or how we would test that, since there is a balance test, which my program did pass but I doubt that is, it probably in involves finding a right most and using traversals to reorder the
+tree in some way, my main goals were to get this assignment done and handed in in a day so I don’t think I did that bad. I most certainly got stuck on the iterator, and searched online to try and solve that issue
+but ended up re-thinking it. 
+
+* Did you notice a difference in speed of the application compared to the one of assignment 3? Where does the speed difference come from?
+This program was a lot faster than the program in assignment three, this is unsurprising as this assignment was written with a lot of recursion which reduces the amount of time for running
+compared to iteratively, but the key for this assignment is in the name as the assignment is based on binary search trees, we save a lot of time as the tree is binary so very time we chose a path we half
+the amount we must search O(logn). whereas add and remove methods in assignment 3 where O(n) except perhaps contains, and remove. And in this assignment even with a slightly unbalanced tree the complexity is between O(n)
+ and O(logn) which means it is faster than assignment 3
+
+* What did you observe comparing the height of the tree, both after loading the dictionary words and after removing the bad words? How do you explain this result? 
+The height of the tree remains the same whether it has the words are removed or not, the way i explain this is the fact there a slightly more than 200,000 words in the dictionary, and removing 2000 would potentially
+not shrink the height of the tree, height = log2(n+1) – 1 and this shows that even with the huge amounts of values the threes height would most likely remain the same if it lost a merge 
+2000 items, the height also depends on the order of addition, which means it could be severely unbalanced, and have a huge height with few elements. The tree we know from the dictionary app, that the tree is unbalance,
+ which could also mean the trees height is not altered if the words removed from a single branch and not another.
+Steps needed = height+1 = log2(n+1)
+
+* What is the numerical difference between the height of the tree you observed and the theoretical minimum? State the number and briefly comment on how much it affects the search speed.
+The height of a tree is the depth of the lowest leaf, i.e. its distance from the root – which is the same as the length (number of edges) of the longest path. The height of the tree is 37, the theoretical minimum, is Log2(206,382) = 17.7 --> 18 
+because the theoretical minimum is log2, every movement divides the amount of numbers in half, hence the search speed, diffrence between, is good indicator of how well balanced the tree is, the greater thedffrence the less well diffrence, and the greater 
+the worst case scenarios complexity will be.
+
+I’m not sure how to answer this question…
+
+----------------------------------------------------------------

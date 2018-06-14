@@ -1,0 +1,36 @@
+/* Reflection.txt for COMP103 - 2017T2, Assignment 9
+ * Name:Daniel Armstrong
+ * Username:armstrdani1
+ * ID:300406381
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. Please be specific about
+what you attempted (core, completion, challenge, and any finer-grained goals,
+if applicable). Please also state how successful you believe you were
+respectively. If there were any problems you got stuck on, what were they?
+This week, I have quite a bit to do including test, so I did what I think I did was finished somewhat of challenge for the molecule renderer and up to challenge for the queue tests, because I 
+could not justify spending too much time on this assignment, finished it on Tuesday meant my week was open to more study, I did however find it challenging to read and decipher the code given to us to fix
+I really sympathise with marker. because that was terrible, challenge for the array queue does look complicated though, but I would not know as I didn’t try.
+
+* What is the point of comparators?  Why are they necessary in general?
+  Could you suggest an alternative way of solving the same problems that didn’t
+  involve having to make these additional classes?
+A comparator is a function which imposes a total ordering on some collection, comparators can be
+passes to a sort method to allow precise control, so comparators can be used to control the order
+of certain data consistently and hopefully of a low cost, the alternative could be the comparable
+but there are things comparators do that comparable can't do, it really depends on the ordering of
+the data or type of ordering, custom or natural ordering.
+Im not actually to sure what the point of them really are or what could replace them.
+
+* Coming up with good test methods can be as hard as writing the code that it is
+  testing.  Suggest some guidelines or principles for writing good test methods.
+Just testing base cases, like is the collection empty initially? does it maintain order if things are added then removed (If necessary)
+can it add null, good guidelines are test the basic cases, then test what should break it, to really
+put the code through its paces. more in-depth tests are better than many crappy tests. but ultimately the idea is to test something
+so, it does not break when used by public or if it is used in very important jobs.
+
+
+--------------------------------------------------------------------

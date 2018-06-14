@@ -1,0 +1,43 @@
+/* Reflection.txt for COMP103 - 2017T2, Assignment 3
+ * Name: Daniel Armstrong
+ * Username:armstrdani1
+ * ID:300406381
+ */
+
+For your reflection:
+====================
+
+Describe how far you got on this assignment. Please be specific about what you
+attempted (core, completion, challenge, and any finer-grained goals, if
+applicable). Please also state how successful you believe you were respectively.
+If there were any problems you got stuck on, what were they? 
+
+For this assignment, I attempted everything except interpolation, partially because I ran out of time and partially
+because it is, or seems to be very difficult to implement, so excluding interpolation I have done everything else
+I started with the core, which is a basic iterator, and managed okay with that, so I thought this assignment, 
+may have been nice and easy... boy was I wrong, the challenge I face when implementing the sorted array stack, it is done now
+but there was a lot of stress to get it working,
+mainly the cause of the stress was a few failed tests based on my remove and contains method, that linked back to a null pointer error
+I have several friends look at it and they couldn’t find if, even after using breakpoints we could found where the error originated from (or so we thought)
+but not why, I decided to go to a help desk to sort it, and we managed to find the place of the error in the remove method using old fashioned print statements
+which I admittedly did not think to use. once the error was fixed which turned out to be a missing null check in the middle of my remove method, I wrote a reasonably detailed report,
+detailing all implementations, I coded and hash sets. so, then tabulated the results and explained them in the report. 
+I would like to work on interpolation and believe that conceptually i have the idea right, for instance if we check the first character of the word and search based on that using a for loop
+then use a second for loop for the second character in the string and another for the third I believe interpolation would work but YOU MUST USE THE SORTED DICTIONARY.
+I believe the programs i am submitting are relatively successful. a friend of mine used system array copy and managed to get their load time to 8 seconds for their sorted array set, but I haven’t used it before
+so I thought I would not. hence why my load speeds are atrocious. I got stuck on null pointers, those are just shit.
+
+
+The Java collection library provides several different implementations of the
+Set type, including HashSet and TreeSet. Why does it not provide ArraySet?
+After all, Java provides the ArrayList implementation of the List type!
+
+Simply put, a set has no order. and when cycling through elements in an array it uses a lot of computational power
+so it really does not have a use compared to Hashset, the only use for an array is the fact that an array uses order, it takes less memory
+to keep track of the index but more to cycle through. hence there is no real need for an array set. performance hurts a lot the larger the set becomes (O(n))
+ArrayList is given simply becuase it works well with list, a list is an ordered colletion, as is an array, where as a set is not, and putting a set with an array
+wich is predominantly ordered just does not seem smart, 
+
+
+--------------------------------------------------------------------
+

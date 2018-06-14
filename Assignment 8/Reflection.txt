@@ -1,0 +1,48 @@
+/* Reflection.txt for COMP103 - 2017T2, Assignment 8
+ * Name: Daniel Armstrong
+ * Username:armstrdani1
+ * ID:300406381
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. Please be specific about
+what you attempted (core, completion, challenge, and any finer-grained goals,
+if applicable). Please also state how successful you believe you were
+respectively. If there were any problems you got stuck on, what were they?
+To be honest this week sucked, however, I managed to finish the entire assignment, my only doubt is that completion asks for something about distance, and I’m not sure I’ve done that as i could not see
+anything to modify or how i could do that in the first place, the instructions were not very clear on the part I felt, the most difficult part for me was core, not because it was difficult but because my brain was out of whack
+and I though the first position in a queue was 1 and not 0, so go go null pointers. but one i finished that I think i did okay, as for goals, like every week my goal is to have this done on Tuesday.... I’m writing this on Thursday, so I did
+fail my goal... the other thing was no matter ow the program run unless i had like 10 bikes i was losing money by ridiculous amounts, that caused some confusion.
+
+What part(s) of the assignment did you find most difficult?
+other than stupid errors I did find some of the conversion in challenge a bit difficult but i managed to get it done, just need to work on my understanding.
+
+
+If you completed the completion part:
+
+Show the results you obtained when using the priority queue and compare them
+to the results you obtained with the ordinary queue.
+The following data comes from several completLog files:
+======================= Log File: completLog1 =======================
+StandardQueue:  on time: 31, late:69 (urgent=14, std=21, undelivered=34), Profit: $-1096.00
+PriorityQueue:  on time: 29, late:71 (urgent=52, std= 0, undelivered=19), Profit: $-2052.00
+                                                                          Saving = $-956.00
+======================= Log File: completLog10 =======================
+StandardQueue:  on time: 40, late:60 (urgent=11, std=17, undelivered=32), Profit: $-848.00
+PriorityQueue:  on time: 42, late:58 (urgent=41, std= 4, undelivered=13), Profit: $-1222.00
+                                                                          Saving = $-374.00
+
+======================= Log File: completLog20 =======================
+StandardQueue:  on time: 31, late:77 (urgent=13, std=15, undelivered=49), Profit: $-1309.00
+PriorityQueue:  on time: 31, late:77 (urgent= 0, std=54, undelivered=23), Profit: $-636.50
+                                                                          Saving = $672.50
+From what we can see its very dependent on the log files, in the final log file you can see the priority loss for urgent pizzas is zero but otherwise it remains just as inefficient.
+
+Explain how you incorporated the distance into the scheduling (if at all),
+and what effect this had.
+I had no idea how to do this, unless I have done it without realising but hey…
+
+----------------------------------------------------------------
+

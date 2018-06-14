@@ -1,0 +1,37 @@
+Student ID: 300406381
+
+MARKER'S GUIDE
+==============
+I attempted / completed the following methods:
+(list one method per line below in the form className.methodName)
+BSTNode.contains(E item)
+BSTNode.add(E item)
+BSTNode.height()
+BSTNode.minDepth()
+BSTNode.remove(E item)
+BSTNode.replacementSubtreeFromChildren(BSTNode<E> left, BSTNode<E> right)
+BSTNode.getLeftmostNode()
+BSTNode.List()
+
+BSTSet.contains(E item)
+BSTSet.add(E item)
+BSTSet.height()
+BSTSet.minDepth()
+BSTSet.remove(E item)
+BSTSet.iterator()
+
+BSTSetIterator.BSTSetIterator(BSTNode<E> root)
+BSTSetIterator.hasNext()
+BSTSetIterator.next()
+
+
+REPORT
+======
+Height of the BST 
+	after loading dictionary.txt: 37
+	after removing bad-words.txt: 37
+
+Minimum of the all the branch lengths in the BST 
+	after loading dictionary.txt: 8
+	after removing bad-words.txt: 8
+The fuck?

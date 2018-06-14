@@ -1,0 +1,50 @@
+/* Reflection.txt for COMP103 - 2017T2, Assignment 4
+ * Name: Daniel Armstrong
+ * Username: armstrdani1
+ * ID: 300406381
+ */
+
+For your reflection:
+====================
+
+Firstly, describe how far you got, on this assignment. Please be specific about
+what you attempted (core, completion, challenge, and any finer-grained goals,
+if applicable). Please also state how successful you believe you were
+respectively. If there were any problems you got stuck on, what were they?
+
+Sadly, I only managed to finish core and Completion without attempting challenge, with 2 tests this week and
+a lot of other work cycling around me, I as a ECEN student decided against doing challenge to study, in saying that
+I finished the core and completion in about 3 hours, and really enjoyed this assignment, the last 2 assignments I’ve enjoyed
+I was stoked with my reverse image method, didn’t think it would work, in fact it didn’t, never have I crashed the UI and had a program
+run out of memory getting an Out of memory error before this assignment, and then I realized I had not incremented my cursor position so it was trying to make infinite
+additions to a stack of the same picture, as the while loop was never satisfied. to complete this assignment this week, I actually slowed down to read what needed to be done,
+I bullet pointed things and pseudo coded most of it first. to fix bugs I employed the use of the debugger and print statements, and for what I’ve done I’m happy with the out come
+
+* Do you think that having both classes "Images" and "ImageNode" is overkill? 
+  What pros and cons can you think of in comparison to just using ImageNode?
+Some would say it’s over kill, I on the other hand would not it makes readability and navigation so much easier, on the other hand you could just
+have a huge page of code to do the same thing, but it makes it harder to navigate, harder to find bugs, and harder to maintain, compared to breaking 
+programs into multiple classes if you think about it like this. As a member of a software team you are also very unlikely to ever write a how program yourself
+so having the program split up allows more people to work on it more. Often as well you will not be around forever so the code must be readable
+and manageable by others who take your place with this when you put everything into one class, you have to worry about everything at once when you're writing new code. 
+Whereas splitting it, you often only have to concern yourself with that smaller more specific class.
+
+* Did you notice the different complexity of adding an image
+  before vs after the cursor? 
+  What are the complexities and what is the cause of this complexity difference? 
+There are most definitely differences between the two, what makes adding before more complex is simply we have another special case
+to think about, instead of just checking if there is nothing at the head, for adding after, we are checking if there is nothing at the head,
+if the curser is the head and as well as that if the cursor is not the head, so there is a degree more complexity
+
+
+* Can you think of an extension to "ImageNode" that would avoid the 
+  above mentioned complexity difference? 
+we already use the insert before method, i notice we can remove in respect to removeNodeUsingPreveious
+perhaps we could add a node using a similar set up which checks the node behind and adds a node based on that method. so instead of "adding behind"
+we would be looking behind and adding forward if that makes sense.
+
+
+* Cursors are a good way of obtaining quick access to a certain point in a list. 
+  Can you think of a potential problem if a client does not use Images.setCursor correctly?
+Well i think if I’m right this could cause values to be overwritten, I know for affect with setHead, you could essentially 
+overwrite most of the items in the linked list.

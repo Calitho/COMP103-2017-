@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="ecs100">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../COMP102/ecs100.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../CompLibraries" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../COMP102/ecs100.jar!/" />
+      <root url="file://$PROJECT_DIR$/../../CompLibraries" />
+    </SOURCES>
+    <jarDirectory url="file://$PROJECT_DIR$/../../CompLibraries" recursive="false" />
+    <jarDirectory url="file://$PROJECT_DIR$/../../CompLibraries" recursive="false" type="SOURCES" />
+  </library>
+</component>
